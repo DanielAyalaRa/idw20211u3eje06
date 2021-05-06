@@ -5,9 +5,9 @@ mongoose.connect('mongodb://localhost:27017/eje05');
 
 var Blog = mongoose.model('Blog',schema,'Blogs');
 
-//BLOGS
+//BLOGS Objetos
 var bloger1 = {
-    title: 'Sherlock',			
+    title: 'Sherlock Holmes',			
     author: 'Donal',						
     body: 'Contenido entretenido y de misterio',						
     comments: [
@@ -23,7 +23,7 @@ var bloger1 = {
 
 var bloger2 = {
     title: 'Ciencia y Tecnologia',			
-    author: 'Felipe',						
+    author: 'Felipe Ruelas',						
     body: 'Contenido cientifico y tecnologico',						
     comments: [
         { 
@@ -38,7 +38,7 @@ var bloger2 = {
 
 var bloger3 = {
     title: 'Filosofia Avanzada',			
-    author: 'Carlos Alverto',						
+    author: 'Carlos Alberto',						
     body: 'Contenido conocimiento',						
     comments: [
         { 
